@@ -1,29 +1,31 @@
-import ornamaplogo from './images/Frame 20.jpg'
-import applelogo from './images/fi_731985.png'
-import googleplaylogo from './images/Vector.png'
+import ornamaplogo from './images/Frame 20.svg'
+import applelogo from './images/Group.svg'
+import googleplaylogo from './images/Vector.svg'
+import Headerstyles from '../Header/header.module.css'
+import dropwdownlogo from './images/fi_7996254.svg'
 function Header (){
 
 
     return(
         <>
         <header>
-            <div>
-                    <div>
+            <div className={Headerstyles.header}>
+                    <div className={Headerstyles.container}>
                         <div>
-                            <img src={ornamaplogo}></img>
+                            <img src={ornamaplogo} ></img>
                         </div>
-                        <nav>
+                        <nav className={Headerstyles.nav}>
                             <ul>
-                                <li>Home</li>
-                                <li>Blog</li>
-                                <li>Schedule</li>
-                                <li>FAQs</li>
+                                <li className={Headerstyles.home}>Home</li>
+                                <li className={Headerstyles.blog}>Blog</li>
+                                <li className={Headerstyles.schedule}>Schedule <img src={dropwdownlogo}/></li>
+                                <li className={Headerstyles.faq}>FAQs</li>
                             </ul>
                             
                         </nav>
-                        <button class="hero-btn">
-                            <img src={applelogo} />
-                            <img src={googleplaylogo}/> 
+                        <button >
+                            <img src={applelogo} className={Headerstyles.applelogo}/>
+                            <img src={googleplaylogo} className={Headerstyles.googleplaylogo}/> 
                             Download App Now
                         </button>
 
