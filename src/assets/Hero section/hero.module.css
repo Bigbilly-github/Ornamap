@@ -1,0 +1,88 @@
+.herosection {
+    
+    width: 1440px;
+    height: 760px;
+    
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    background-color: #F6F7F8;
+}
+.hero{
+    width: 1240px;
+    height: 720px;
+    display: flex;
+    gap: 20px;
+    margin-top: 32px;
+
+}
+.herobody{
+    width: 610px;
+    height: 720px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+
+   
+
+    
+}
+.herobodydetails{
+    width: 544px;
+    height: 354px;
+    margin: 183px 34px 183px 32px;
+  
+}
+.herobodydetails h1{
+    width: 544px;
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 68px;
+    letter-spacing: 0.02em;
+    margin-bottom: 0;
+    color: #080912;
+
+
+
+
+}
+.herobodydetails p{
+    margin-top: 24px;
+    width: 544px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.52px;
+    letter-spacing: 0.02em;
+    margin-bottom: 0;
+    color: #53557A;
+
+
+}
+.herobodydetails button{
+    margin-top: 48px;
+    width: 264px;
+    height: 56px;
+    padding: 16px 24px 16px 24px;
+ 
+    border-radius: 45px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282B59;
+    color: #F6F7F8;
+    gap: 11.35px;
+    
+}
+.herobodydetails button .applelogo{
+    width: 20.5px;
+    height: 18.38px;
+    padding-right: 9.75px;
+    border-right: 1px solid #7E809B;
+    
+}
+.heroimage{
+    width: 610px;
+    height: 720px;
+
+}
