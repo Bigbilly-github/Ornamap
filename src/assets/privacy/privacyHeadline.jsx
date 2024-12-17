@@ -1,11 +1,12 @@
-import ornamaplogo from './images/Frame 20.svg'
-import applelogo from './images/Group.svg'
-import googleplaylogo from './images/Vector.svg'
-import Headerstyles from '../Header/header.module.css'
-import dropwdownlogo from './images/fi_7996254.svg'
+
+import ornamaplogo from '../privacy/images/Frame 20.svg'
+import applelogo from '../privacy/images/Group.svg'
+import googleplaylogo from '../privacy/images/Vector.svg'
+import Headerstyles from '../privacy/privacyheadline.module.css'
+import dropwdownlogo from '../privacy/images/fi_7996254.svg'
 
 
-function Header (){
+function PrivacyHeader (){
 
 
     return(
@@ -40,4 +41,4 @@ function Header (){
     )
 
 }
-export default Header
+export default PrivacyHeader

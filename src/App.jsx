@@ -1,22 +1,26 @@
 
 import './App.css'
-import FeaturesArrival from './assets/Arrival Features/arrivalFeatures'
-import Features from './assets/Features section/features'
-import Header from './assets/Header/header'
-import Hero from './assets/Hero section/hero'
+
+
+import Footer from './assets/privacy/footer'
+import PrivacyBody from './assets/privacy/privacybody'
+import PrivacyHeader from './assets/privacy/privacyHeadline'
+
+
+
 
 function App() {
 
 
   return (
     <>
-    <Header/>
-    <Hero/>
-    <Features/>
-    <FeaturesArrival/>
+    <PrivacyHeader/>
+    <PrivacyBody/>
+    <Footer/>
+
 
     </>
-  )
+  );
 }
 
 export default App
