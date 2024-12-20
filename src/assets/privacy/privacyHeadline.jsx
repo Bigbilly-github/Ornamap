@@ -6,7 +6,7 @@ import Headerstyles from '../privacy/privacyheadline.module.css'
 import dropwdownlogo from '../privacy/images/fi_7996254.svg'
 
 
-function PrivacyHeader (){
+function Header (){
 
 
     return(
@@ -41,4 +41,5 @@ function PrivacyHeader (){
     )
 
 }
-export default PrivacyHeader
+export default Header
+

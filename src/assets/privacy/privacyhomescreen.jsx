@@ -4,7 +4,7 @@ import applelogo from '../privacy/images/apple.svg'
 import googleplaylogo from '../privacy/images/google.svg'
 import styles from '../privacy/privacybody.module.css'
 
-function PrivacyHomescreen (){
+function Homescreen (){
 
     return(
         <>
@@ -38,4 +38,4 @@ function PrivacyHomescreen (){
     )
 
 }
-export default PrivacyHomescreen
+export default Homescreen

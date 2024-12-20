@@ -78,6 +78,13 @@
     
 
 }
+#privacyInfo{
+    height: 3711px;
+}
+#privacyQuestions {
+    height: 400px;
+    background-color: red;
+}
 .privacyQuestions{
     position: sticky;
     top: 120px;

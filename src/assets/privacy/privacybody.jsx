@@ -3,7 +3,7 @@ import styles from '../privacy/privacybody.module.css'
 
 import PrivacyHero from './privacyHero'
 import PrivacyInfo from './privacyInfo'
-import PrivacyHomescreen from './privacyhomescreen'
+import Homescreen from './privacyhomescreen'
 function PrivacyBody (){
 
     return(
@@ -12,7 +12,7 @@ function PrivacyBody (){
             <div className={styles.PrivacyTitle}>
                     <PrivacyHero/>
                      <PrivacyInfo/>
-                     <PrivacyHomescreen/>
+                     <Homescreen/>
             
                          
            </div>
