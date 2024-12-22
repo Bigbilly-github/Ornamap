@@ -1,4 +1,4 @@
-import styles from '../Arrival Features/arrival.module.css'
+import styles from './arrival.module.css'
 
 function FeaturesArrival () {
 

@@ -1,12 +1,12 @@
-import styles from '../privacy/footer.module.css'
-import ornamaplogo from '../privacy/images/Frame 21.svg'
-import applelogo from '../privacy/images/apple.svg'
-import googleplaylogo from '../privacy/images/google.svg'
-import Xlogo from '../privacy/images/X.svg'
-import tiktoklogo from '../privacy/images/tiktok.svg'
-import facebooklogo from '../privacy/images/facebook.svg'
-import linkedinlogo from '../privacy/images/linkedin.svg'
-import instagramlogo from '../privacy/images/instagram.svg'
+import styles from '/src/assets/module_styles/footer.module.css'
+import ornamaplogo from '/src/assets/svg/footer/Frame 21.svg'
+import applelogo from '/src/assets/svg/Homescreen/apple.svg'
+import googleplaylogo from '/src/assets/svg/Homescreen/google.svg'
+import Xlogo from '/src/assets/svg/footer/X.svg'
+import tiktoklogo from '/src/assets/svg/footer/tiktok.svg'
+import facebooklogo from '/src/assets/svg/footer/facebook.svg'
+import linkedinlogo from '/src/assets/svg/footer/linkedin.svg'
+import instagramlogo from '/src/assets/svg/footer/instagram.svg'
 function Footer (){
 
     return(

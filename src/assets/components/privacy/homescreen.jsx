@@ -1,8 +1,8 @@
-import homescreen from'../privacy/images/Home screen.svg'
-import profilepic from '../privacy/images/Frame 4157.svg'
-import applelogo from '../privacy/images/apple.svg'
-import googleplaylogo from '../privacy/images/google.svg'
-import styles from '../privacy/privacybody.module.css'
+import homescreen from'/src/assets/svg/Homescreen/Home screen.svg'
+import profilepic from '/src/assets/svg/Homescreen/Frame 4157.svg'
+import applelogo from '/src/assets/svg/Homescreen/apple.svg'
+import googleplaylogo from '/src/assets/svg/Homescreen/google.svg'
+import styles from '/src/assets/module_styles/body.module.css'
 
 function Homescreen (){
 

@@ -1,5 +1,5 @@
 
-import styles from '../privacy/privacybody.module.css'
+import styles from '/src/assets/module_styles/body.module.css'
 
 function PrivacyHero (){
 return(

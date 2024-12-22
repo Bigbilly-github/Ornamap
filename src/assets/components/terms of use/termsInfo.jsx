@@ -1,7 +1,7 @@
 
 
-import calendar from '../privacy/images/Calendar.svg'
-import styles from '../privacy/privacybody.module.css'
+import calendar from '/src/assets/svg/info/Calendar.svg'
+import styles from '/src/assets/module_styles/body.module.css'
 
 function TermsInfo (){
     const style = {

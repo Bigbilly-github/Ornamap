@@ -38,7 +38,7 @@
     width: 100%;
     height: 100%;
     
-    background-image: url("../privacy/images/bg-image.png");
+    background-image: url("/src/assets/svg/Hero/bg-image.png");
     
     background-repeat: repeat;
     background-position: 0 0;

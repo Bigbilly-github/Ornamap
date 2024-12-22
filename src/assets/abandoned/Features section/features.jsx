@@ -1,11 +1,11 @@
 
-import train from '../Features section/images/Train.svg'
-import ferry from '../Features section/images/Ferry.svg'
-import bus from '../Features section/images/Bus.svg'
-import line from '../Features section/images/Vector.svg'
-import line2 from '../Features section/images/Vector1.svg'
-import line3 from '../Features section/images/Vector2.svg'
-import styles from '../Features section/features.module.css'
+import train from './images/Train.svg'
+import ferry from './images/Ferry.svg'
+import bus from './images/Bus.svg'
+import line from './images/Vector.svg'
+import line2 from './images/Vector1.svg'
+import line3 from './images/Vector2.svg'
+import styles from './features.module.css'
 
 function Features (){
 

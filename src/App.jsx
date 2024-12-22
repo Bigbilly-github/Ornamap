@@ -2,10 +2,10 @@
 import './App.css'
 
 
-import Footer from './assets/privacy/footer'
-import PrivacyBody from './assets/privacy/privacybody'
-import PrivacyHeader from './assets/privacy/privacyHeadline'
-import Terms from './assets/terms of use/termsofuse';
+
+import Privacy from './assets/Pages/privacy/privacy';
+import Terms from './assets/Pages/terms of use/termsofuse';
+
 
 
 
@@ -15,6 +15,7 @@ function App() {
 
   return (
     <>
+    <Privacy/>
     <Terms/>
 
 
