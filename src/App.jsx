@@ -1,6 +1,7 @@
 
 import './App.css'
 import AboutUs from './assets/Pages/About us/aboutus';
+import Faqs from './assets/Pages/Faqs/faqs';
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <Privacy/>
     <Terms/>
     <AboutUs/>
+    <Faqs/>
 
 
     </>
