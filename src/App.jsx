@@ -1,5 +1,6 @@
 
 import './App.css'
+import AboutUs from './assets/Pages/About us/aboutus';
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <>
     <Privacy/>
     <Terms/>
+    <AboutUs/>
 
 
     </>
