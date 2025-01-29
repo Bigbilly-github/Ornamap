@@ -1,7 +1,7 @@
 
 import image from './images/Frame 9.svg'
 import applelogo from './images/Group.svg'
-import googleplaylogo from './images/Vector.svg'
+import googleplaylogo from './images/Vector3.svg'
 import herostyles from './hero.module.css'
 function Hero (){
 

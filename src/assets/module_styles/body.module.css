@@ -15,7 +15,7 @@
    
     width: 1240px;
     height: 500px;
-    margin-top: 72px;
+  
     border-radius: 30px;
     border: none;
     position: relative;
@@ -270,12 +270,7 @@
 
 
 
-.AboutUsHero{
-    width: 691px;
-    height: 212px;
-    margin-bottom: 0;
-   
-}
+
 .AboutUsHero1 h1{
     width: 691px;
     height: 68px;
@@ -436,7 +431,7 @@
        
       
 }
-.accordion li label{
+.accordion  label{
     display: flex;
     align-items: center;
     padding: 10px ;
@@ -488,11 +483,7 @@
   
   }
 
-  .faq{
-    width: 1240px;
-    height: 332px;
-    
-  }
+  
 
   
   

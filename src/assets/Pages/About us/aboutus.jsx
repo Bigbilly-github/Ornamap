@@ -1,7 +1,7 @@
 import AboutUsHero from "../../components/about us/aboutusHero"
-import Footer from "../../components/privacy/footer"
-import Header from "../../components/privacy/Header"
-import Homescreen from "../../components/privacy/homescreen"
+import Footer from "../../components/global/footer"
+import Header from "../../components/global/Header"
+import Homescreen from "../../components/global/homescreen"
 import styles from "/src/assets/module_styles/body.module.css"
 
 

@@ -1,16 +1,16 @@
-import Footer from "../../components/privacy/footer"
+import Footer from "../../components/global/footer"
 
 
 import TermsHero from "../../components/terms of use/termsHero"
 import TermsInfo from "../../components/terms of use/termsInfo"
 import styles from "/src/assets/module_styles/body.module.css"
-import Homescreen from "../../components/privacy/homescreen"
-import Header from "../../components/privacy/Header"
+import Homescreen from "../../components/global/homescreen"
+import Header from "../../components/global/Header"
 
 
 
 
-function Terms () {
+function Terms () { 
 
     return(
         <>
@@ -26,6 +26,10 @@ function Terms () {
 
 }
 export default Terms
+
+
+
+
 
 
 
