@@ -11,8 +11,8 @@ function Footer (){
 
     return(
         <>
-        <footer>
-            <div className={styles.footer}>
+        <footer >
+            <div  className={styles.footer}>
                 <div className={styles.links}>
                     <div className={styles.ornamaplogo}> 
                         <img src={ornamaplogo}/>

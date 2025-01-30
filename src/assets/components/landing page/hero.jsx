@@ -1,8 +1,9 @@
 
-import image from './images/Frame 9.svg'
-import applelogo from './images/Group.svg'
-import googleplaylogo from './images/Vector3.svg'
-import herostyles from './hero.module.css'
+import image from '/src/assets/svg/landing page/Frame 9.svg'
+import applelogo from '/src/assets/svg/landing page/Group.svg'
+import googleplaylogo from '/src/assets/svg/landing page/Vector3.svg'
+import herostyles from '/src/assets/module_styles/hero.module.css'
+
 function Hero (){
 
 

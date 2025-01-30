@@ -1,0 +1,248 @@
+.urbanmobil {
+    width: 1440px;
+    height: 1932px;
+  
+   
+    
+    
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 148px;
+    
+    
+
+}
+.urbanmobil .urbanMobility{
+    width: 1240px;
+    height: 1932px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    
+    
+    align-items: center;
+    margin: 0;
+    
+   
+}
+.urbanmobil .urbantextdiv {
+    width: 826px;
+    height: 116px;
+    margin: 0;
+    
+    
+   
+   
+}
+.urbantextdiv h1{
+    width: 762px;
+    height: 40px;
+   font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 0;
+    color:#080912;
+    margin-top: 0;
+    
+
+}
+.urbantextdiv p{
+    width: 826px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.52px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 16px;
+    color: #53557A;
+
+
+
+}
+.urbanRep{  
+    width: 1240px;
+    height:1768px;
+    
+}
+.urbanRep .urbantrain{
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 0;
+}
+.urbantrain img{
+    border-radius: 15px;
+}
+.urbanRep .urbantraintext{
+    width: 630px;
+    height: 576px;
+    background-color: #FFFFFF;
+    border-left: 1px solid #75757A33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+
+
+
+}
+.urbantraintext h3{
+    width: 582px;
+height: 32px;
+
+font-size: 32px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 0;
+color: #080912;
+
+
+}
+.urbantraintext p{
+    width: 582px;
+height: 90px;
+
+font-size: 24px;
+font-weight: 400;
+line-height: 29.52px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 12px;
+color: #53557A;
+
+
+}
+
+.urbanrail{
+    width:1240px;
+height: 576px;
+display: flex;
+gap: 20px;
+margin-top: 20px;
+
+
+}
+.urbanrail .bluerail, .redrail{
+    width: 610px;
+height: 576px;
+background-color: #FFFFFF;
+border-radius: 20px;
+border: 1px solid #75757A33;
+
+
+
+
+
+}
+.railtext h3{
+    width: 528px;
+height: 32px;
+margin-top: 24px;
+margin-bottom: 12px;
+font-size: 32px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+color: #080912;
+
+
+
+}
+.redrailtext h3{
+    width: 574px;
+    height: 32px;
+margin-top: 24px;
+margin-bottom: 12px;
+font-size: 32px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+color: #080912;
+}
+.redrailtext p{
+    width: 574px;
+    height: 90px;
+color: #53557A;
+font-size: 24px;
+font-weight: 400;
+line-height: 29.52px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 0;
+
+
+}
+.railtext p{
+    width: 586px;
+height: 90px;
+color: #53557A;
+font-size: 24px;
+font-weight: 400;
+line-height: 29.52px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 0;
+
+
+}
+.railtext,.redrailtext{
+    width: 100%;
+height: 150px;
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+align-items: center;
+
+
+
+}
+.traindiv{
+    width: 610px;
+    height: 405px;
+  margin: 0;
+   
+
+}
+.traindiv img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0;
+}
