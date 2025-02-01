@@ -1,0 +1,88 @@
+.Search{
+    width: 1440px;
+height: 736px;
+
+display: flex;
+justify-content: center;
+margin-top: 148px;
+}
+.Search .searchdiv{
+    width: 1240px;
+    height: 736px;
+    
+    
+
+}
+.searchdiv h1{
+    text-align: center;
+    width: 1240px;
+height: 40px;
+color: #080912;
+font-size: 40px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0.02em;
+
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 0;
+
+
+
+
+
+}
+.searchdetailsdiv{
+    background-color: #EAEAEE;
+    margin-top: 48px;
+    border-radius: 25px;
+
+}
+.searchdetails {
+    display: flex;
+    width: 60%;
+    
+
+    
+
+}
+.searchdetails div{
+    width: 342px;
+height: 138px;
+margin: 255px 72px;
+text-align: left;
+
+
+}
+.searchdetails h2{
+    width: 138px;
+    height: 40px;
+    
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 0;
+}
+.searchdetails p{
+    width: 342px;
+height: 90px;
+margin-top: 8px;
+font-size: 18px;
+font-weight: 400;
+line-height: 30.24px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #53557A;
+
+
+}
+
+.searchdetails img{
+    margin-right: auto;
+}

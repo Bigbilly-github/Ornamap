@@ -58,7 +58,7 @@ function Features (){
 
 
                         </div>
-/>
+
 
                     </div>
 
