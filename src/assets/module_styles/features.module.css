@@ -1,0 +1,140 @@
+.featuresSection{
+
+width: 1440px;
+height: 2224px;
+
+display: flex;
+justify-content: center;
+
+
+}
+.features{
+    width: 1240px;
+    height: 2224px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+.features .arrival{
+    width: 720px;
+    height: 138px;
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 12px;
+   margin-bottom: 0;
+}
+.arrival .featuresdiv{
+    
+    padding: 12px 32px;
+    border-radius: 20px;
+    background-color: #D0EDD4;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+font-weight: 400;
+line-height: 22.14px;
+letter-spacing: 0.02em;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 0;
+
+}
+.arrival h1{
+    width: 720px;
+height: 80px;
+margin-top: 0;
+font-size: 40px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.ornamapfeatures {
+    width: 1240px;
+    height: 2038px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   column-gap: 20px;
+   row-gap: 20px;
+
+}
+.ornamapfeatures .feature{
+    width: 610px;
+    height: 666px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.feature div{
+    width: 512px;
+    height: 98px;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   align-items: center;
+}
+.feature div h1{
+    width: 250px;
+    height: 27px;
+    color: #080912;
+font-size: 24px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 0;
+
+
+
+}
+.feature div p{
+    width: 512px;
+    height: 66px;
+    margin-top: 0;
+    color: #53557A;
+  
+font-size: 18px;
+font-weight: 400;
+line-height: 22.14px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.img{
+    padding-top: 10px;
+    height: 520px;
+    
+    
+}
+.relat{
+    position: relative;
+    height: 100%;
+    
+   
+  
+}
+.cowry{
+    position: absolute;
+    bottom: -330px;
+    right: -190px;
+  
+    
+}
