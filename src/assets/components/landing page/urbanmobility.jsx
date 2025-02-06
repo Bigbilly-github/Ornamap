@@ -1,10 +1,10 @@
 
 import styles from '/src/assets/module_styles/urbanmobil.module.css'
-import train from '/src/assets/svg/landing page/train.svg'
-import bluetrain from '/src/assets/svg/landing page/bluerail.svg'
-import redtrain from '/src/assets/svg/landing page/redrail.svg'
-import ferry from   '/src/assets/svg/landing page/ferry.svg'
-import brt from   '/src/assets/svg/landing page/brt.svg'
+import train from '/src/assets/svg/landingpage/train.svg'
+import bluetrain from '/src/assets/svg/landingpage/bluerail.svg'
+import redtrain from '/src/assets/svg/landingpage/redrail.svg'
+import ferry from   '/src/assets/svg/landingpage/ferry.svg'
+import brt from   '/src/assets/svg/landingpage/brt.svg'
 
 
 function UrbanMobility (){

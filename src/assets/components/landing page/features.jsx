@@ -1,10 +1,10 @@
-import mockup from '/src/assets/svg/landing page/iMockup.svg'
-import mockup2 from '/src/assets/svg/landing page/iMockup2.svg'
-import mockup7 from '/src/assets/svg/landing page/iMockup2.5.svg'
-import mockup3 from '/src/assets/svg/landing page/iMockup3.svg'
-import mockup4 from '/src/assets/svg/landing page/iMockup4.svg'
-import mockup5 from '/src/assets/svg/landing page/iMockup5.svg'
-import mockup6 from '/src/assets/svg/landing page/iMockup6.svg'
+import mockup from '/src/assets/svg/landingpage/iMockup.svg'
+import mockup2 from '/src/assets/svg/landingpage/iMockup2.svg'
+import mockup7 from '/src/assets/svg/landingpage/iMockup2.5.svg'
+import mockup3 from '/src/assets/svg/landingpage/iMockup3.svg'
+import mockup4 from '/src/assets/svg/landingpage/iMockup4.svg'
+import mockup5 from '/src/assets/svg/landingpage/iMockup5.svg'
+import mockup6 from '/src/assets/svg/landingpage/iMockup6.svg'
 import styles from '/src/assets/module_styles/features.module.css'
 function Features (){
 

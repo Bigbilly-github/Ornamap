@@ -1,4 +1,4 @@
-import image from '/src/assets/svg/landing page/search-mockup.svg'
+import image from '/src/assets/svg/landingpage/search-mockup.svg'
 import styles from '/src/assets/module_styles/search.module.css'
 
 

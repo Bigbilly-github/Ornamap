@@ -1,0 +1,68 @@
+.welcomeBonusSection{
+width: 1440px;
+height: 472px;
+
+display: flex;
+justify-content: center;
+margin-top: 148px;
+
+
+}
+
+.welcomebonus{
+    width: 1040px;
+height: 472px;
+background-color: #E7F6EA;
+background-image: url(src/assets/svg/landingpage/Ellipse1.svg), url(src/assets/svg/landingpage/Ellipse2.svg);
+background-repeat: no-repeat no-repeat;
+background-position: top left , bottom center;
+padding-left: 208px;
+display: flex;
+border-radius: 20px;
+
+
+}
+.welcomebonus img{
+    height: 430px;
+    margin-top: 40px;
+}
+.welcomebonus .welcomebonusdetails {
+width: 438px;
+height:  226px;
+margin-right: 176px;
+margin-top: 77px;
+
+
+}
+.welcomebonusdetails  h1{
+    width: 438px;
+height: 120px;
+color: #080912;
+font-size: 40px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 0;
+
+
+
+}
+.welcomebonusdetails p{
+    width: 438px;
+height: 90px;
+color: #53557A;
+font-size: 24px;
+font-weight: 400;
+line-height: 29.52px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 16px;
+
+
+
+}
