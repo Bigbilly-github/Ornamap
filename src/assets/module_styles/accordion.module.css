@@ -1,0 +1,160 @@
+.faqfeatures{
+    width: 1440px;
+    height: 498px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 50px;
+    
+    background: linear-gradient(0deg, #FFFFFF -13.97%, rgba(18, 166, 40, 0.8) 112.47%);
+
+
+    
+}
+.faqfeaturesdiv{
+    display: flex;
+    gap: 124px;
+    width: 1240px;
+    height: 332px;
+}
+.faqfeaturesleft{
+    
+    width: 295px;
+    height: 196px;
+
+}
+.faqfeaturesleft .button1{
+    width: 170px;
+height: 46px;
+padding: 12px 20px 12px 20px;
+gap: 8px;
+border-radius: 10000px;
+background-color: #EAF4ED;
+border: none;
+color: #080912;
+font-size: 18px;
+font-weight: 400;
+line-height: 22.14px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 12px;
+cursor: pointer;
+
+
+
+}
+.faqfeaturesleft .button2{
+    width: 172px;
+height: 60px;
+padding: 20px 24px 20px 24px;
+background-color: #282B59;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.68px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+border: none;
+
+border-radius: 100000px;
+
+
+}
+.faqfeaturesleft h2{
+    width: 295px;
+    height: 120px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2%;
+    color: #080912;
+    margin: 0;
+}
+.faqfeaturesleft p{
+    font-weight: 400;
+    width: 295px;
+    height: 60px;
+    font-size: 24px;
+    line-height: 29.52px;
+    letter-spacing: 2%;
+    color: #53557A;
+    margin-top: 16px;
+
+}
+
+.faqfeaturesright .accordion {
+    width: 821px;
+    height: 332px;
+    margin-top: 0;
+    
+
+}
+.faqfeaturesright .accordion li{
+    
+        list-style: none;
+        width: 100%;
+        margin: 0;
+        border-bottom: 1px solid #00000033;
+        margin-bottom: 32px;
+       
+       
+      
+}
+.accordion  label{
+    display: flex;
+    align-items: center;
+    padding: 10px ;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    font-weight: 500;
+    margin:0;
+    padding-top: 0;
+    
+  }
+
+  label::before{
+    content: "+";
+    margin-right: 8px;
+    font-size: 24px;
+    font-weight: 600;
+  
+  
+  }
+  input[type="radio"]{
+     display: none;
+  }
+
+  .accordion .content{
+    color: #53557A;
+    margin-top:  12px;
+    line-height: 30.24px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,
+                  ;
+  }
+
+  .accordion input[type="radio"]:checked + label + .content{
+    max-height: 400px;
+    padding-top: 0px;
+    padding-left: 29px;
+    
+  }
+  .accordion input[type="radio"]:checked + label + .content p{
+    margin-top: 0;
+  }
+  .accordion input[type="radio"]:checked + label::before{
+    content: "-";
+  
+  }
+
+  

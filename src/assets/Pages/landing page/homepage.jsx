@@ -7,6 +7,7 @@ import WelcomeBonus from "../../components/landing page/welcomebonus"
 import Homescreen from "../../components/global/homescreen"
 
 import styles from '/src/assets/module_styles/body.module.css'
+import Accordion from "../../components/landing page/accordion"
 
 
 
@@ -25,6 +26,7 @@ function Homepage (){
                 <div className={styles.PrivacyTitle}>
                      <Homescreen/>
                 </div>
+                <Accordion/>
                 
 
           </main>
