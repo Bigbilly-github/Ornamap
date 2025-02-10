@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from '/src/assets/module_styles/footer.module.css'
 import ornamaplogo from '/src/assets/svg/footer/Frame 21.svg'
 import applelogo from '/src/assets/svg/Homescreen/apple.svg'
@@ -22,21 +23,21 @@ function Footer (){
                     </div>
 
                     <div className={styles.company}>
-                        <a href='' className={styles.bold}>Company</a>
-                        <a href=''>About Us</a>
-                        <a href=''>Blog</a>
-                        <a href=''>FAQs</a>
+                        <Link to='' className={styles.bold}>Company</Link>
+                        <Link to='/aboutus'>About Us</Link>
+                        <Link to=''>Blog</Link>
+                        <Link to="/faqs">FAQs</Link>
                     </div>
 
                     <div className={styles.legal}>
-                        <a href=''  className={styles.bold}>Legal</a>
-                        <a href=''>Privacy Policy</a>
-                        <a href=''>Terms & Conditions</a>
+                        <Link to=''  className={styles.bold}>Legal</Link>
+                        <Link to="/privacy">Privacy Policy</Link>
+                        <Link to="/terms">Terms & Conditions</Link>
                         
                     </div>
 
                     <div className={styles.contact}>
-                        <a href='' className={styles.bold}>Contact Us</a>
+                        <Link to='' className={styles.bold}>Contact Us</Link>
                         <p>+234 705 133 4957</p>
                         <a href=''>support@ornamap.com</a>
                         <p>3, Folorusho Kazeem Close, Lagos Nigeria</p>

@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom'
 import ornamaplogo from '/src/assets/svg/Header/Frame 20.svg'
 import applelogo from '/src/assets/svg/Header/Group.svg'
 import googleplaylogo from '/src/assets/svg/Header/Vector.svg'
@@ -19,10 +19,10 @@ function Header (){
                         </div>
                         <nav className={Headerstyles.nav}>
                             <ul>
-                                <li className={Headerstyles.home}>Home</li>
-                                <li className={Headerstyles.blog}>Blog</li>
-                                <li className={Headerstyles.schedule}>Schedule <img src={dropwdownlogo}/></li>
-                                <li className={Headerstyles.faq}>FAQs</li>
+                                <li className={Headerstyles.home}><Link to="/" className={Headerstyles.link}>Home</Link></li>
+                                <li className={Headerstyles.blog}><Link to="/privacy"  className={Headerstyles.link}>Privacy</Link></li>
+                                <li className={Headerstyles.schedule}><Link to="/terms"  className={Headerstyles.link}>Terms</Link><img src={dropwdownlogo}/></li>
+                                <li className={Headerstyles.faq}><Link to="/faqs"  className={Headerstyles.link}>FAQs</Link></li>
                             </ul>
                             
                         </nav>

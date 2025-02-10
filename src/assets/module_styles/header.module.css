@@ -50,6 +50,11 @@
 
    
 }
+.header .link{
+    text-decoration: none;
+    color: #75757A;
+
+}
 .header nav ul .home{
     
     color: #080912;

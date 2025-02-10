@@ -8,6 +8,8 @@ import Homescreen from "../../components/global/homescreen"
 
 import styles from '/src/assets/module_styles/body.module.css'
 import Accordion from "../../components/landing page/accordion"
+import Footer from "../../components/global/footer"
+
 
 
 
@@ -23,10 +25,13 @@ function Homepage (){
                 <Features/>
                 <Search/>
                 <WelcomeBonus/>
+
+                <Accordion/>
                 <div className={styles.PrivacyTitle}>
                      <Homescreen/>
                 </div>
-                <Accordion/>
+                <Footer/>
+               
                 
 
           </main>
